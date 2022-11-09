@@ -1,5 +1,2 @@
 @import './css/global.css';
-
-body {
-    background-color: aqua;
-}
+@import './css/main.css';
