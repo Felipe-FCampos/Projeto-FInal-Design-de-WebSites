@@ -17,7 +17,7 @@
         <section class="first-section" >
             <div class="first-input">
                 <h2>Bill</h2>
-                <input type="number" placeholder="0" id="bill">
+                <input type="number" placeholder="0" id="bill" onchange="bilhas()">
             </div>
 
             <div class="tip">
@@ -33,12 +33,12 @@
             <div class="second-button">
                 <button id="button--4" onclick="armazenar(25)">25%</button>
                 <button id="button--5" onclick="armazenar(50)">50%</button>
-                <input type="text" placeholder="Custom">
+                <input type="text" placeholder="Custom" onchange="armazenar(0)">
             </div>
 
             <div class="second-input">
                 <h2>Number of People</h2>
-                <input type="number" placeholder="0" id="person">
+                <input type="number" placeholder="0" id="person" onchange="pessas()">
             </div>
         </section>
 
@@ -56,7 +56,7 @@
                     <p>Total</p>
                     <div class="res-2-2">
                         <p>/ person</p>
-                        <h3>$0,00</h3>
+                        <h3 id="contaFinal" >$0,00</h3>
                     </div>
                 </div>
             </div>

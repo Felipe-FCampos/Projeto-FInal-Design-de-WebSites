@@ -13,8 +13,8 @@ header {
 
 main {
     background-color: var(--White);
-    padding: 2rem;   
-    margin: 0%;
+    padding: 2rem;
+    padding-inline: 4rem;
     border-radius: 2rem 2rem 0 0;
 }
 
