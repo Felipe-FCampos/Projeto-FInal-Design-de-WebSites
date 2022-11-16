@@ -1,0 +1,11 @@
+.first-input {
+    margin-inline: -2rem;
+}
+
+.first-input h2 {
+    font-size: 1rem;
+}
+
+.first-input input {
+    padding: 0 4rem 0 2rem;
+}

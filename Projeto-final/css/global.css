@@ -7,10 +7,6 @@
     font-family: 'Space Mono', monospace;
 }
 
-html {
-    width: 56.35vh;
-}
-
 :root {
     --Very-dark-cyan: hsl(183, 100%, 15%);
     --Dark-grayish-cyan: hsl(186, 14%, 43%);
