@@ -1,0 +1,68 @@
+.section-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.tip h2 {
+    font-size: 1rem;
+    margin-left: 1.8rem;
+    margin-bottom: 0.5rem;
+    padding-top: 1.8rem;
+}
+
+button {
+    width: 9.5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-button {
+    margin-bottom: 1rem;
+}
+
+.first-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-button {
+    margin-bottom: 1rem;
+}
+
+.second-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+#button--1 {
+    margin-right: 0.5rem;
+}
+
+#button--2 {
+    margin-left: 0.5rem;
+}
+
+#button--3 {
+    margin-right: 0.5rem;
+}
+
+#button--4 {
+    margin-left: 0.5rem;
+}
+
+#button--5 {
+    margin-right: 0.5rem;
+}
+
+.third-button input {
+    width: 9.5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+}

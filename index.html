@@ -14,26 +14,36 @@
         <img src="./Projeto-final/images/logo.svg" alt="">
     </header>
     <main>
-        <section class="first-section" >
+        <section class="first-section">
             <div class="first-input">
                 <h2>Bill</h2>
-                <input type="number" placeholder="0" id="bill" onchange="bilhas()">
+                <div class="imagem-input">
+                    <img src="./Projeto-final/images/icon-dollar.svg" alt="">
+                    <input type="number" placeholder="0" id="bill" onchange="bilhas()">
+                </div>
             </div>
 
             <div class="tip">
                 <h2>Select Tip %</h2>
             </div>
 
-            <div class="first-button">
-                <button id="button--1" onclick="armazenar(5)">5%</button>
-                <button id="button--2" onclick="armazenar(10)">10%</button>
-                <button id="button--3" onclick="armazenar(15)">15%</button>
-            </div>
+            <div class="section-buttons">
+                <div class="buttons">
+                    <div class="first-button">
+                        <button id="button--1" onclick="armazenar(5)">5%</button>
+                        <button id="button--2" onclick="armazenar(10)">10%</button>
+                    </div>
 
-            <div class="second-button">
-                <button id="button--4" onclick="armazenar(25)">25%</button>
-                <button id="button--5" onclick="armazenar(50)">50%</button>
-                <input type="text" placeholder="Custom" onchange="armazenar(0)" id="custom" >
+                    <div class="second-button">
+                        <button id="button--3" onclick="armazenar(15)">15%</button>
+                        <button id="button--4" onclick="armazenar(25)">25%</button>
+                    </div>
+
+                    <div class="third-button">
+                        <button id="button--5" onclick="armazenar(50)">50%</button>
+                        <input type="text" placeholder="Custom" onchange="armazenar(0)" id="custom">
+                    </div>
+                </div>
             </div>
 
             <div class="second-input">
@@ -56,7 +66,7 @@
                     <p>Total</p>
                     <div class="res-2-2">
                         <p>/ person</p>
-                        <h3 id="contaFinal" >$0,00</h3>
+                        <h3 id="contaFinal">$0,00</h3>
                     </div>
                 </div>
             </div>
