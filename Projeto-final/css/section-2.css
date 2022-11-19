@@ -8,12 +8,17 @@
     margin-left: 1.8rem;
     margin-bottom: 0.5rem;
     padding-top: 1.8rem;
+    color: var(--Grayish-cyan);
 }
 
 button {
     width: 9.5rem;
     height: 3rem;
     font-size: 1.5rem;
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--White);
 }
 
 .buttons {
@@ -65,4 +70,6 @@ button {
     font-size: 1.5rem;
     text-align: center;
     border: none;
+    background-color: var(--Very-light-grayish-cyan);
+    border-radius: 0.5rem;
 }

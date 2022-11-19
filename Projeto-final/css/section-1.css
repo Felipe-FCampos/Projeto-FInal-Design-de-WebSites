@@ -3,6 +3,7 @@
     margin-left: 1.8rem;
     margin-bottom: 0.5rem;
     padding-top: 1.8rem;
+    color: var(--Grayish-cyan);
 }
 
 .first-input input {
