@@ -1,0 +1,32 @@
+@media(min-width:950px){
+    header {
+        display:flex;
+        justify-content: center;
+        margin: 3rem;
+    }
+    
+    main {
+        background-color: var(--White);
+        border-radius: 1.2rem;
+        margin-inline: 17rem;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+    }
+
+    .first-section h2 {
+        margin-left: 2.2rem;
+    }
+
+    .first-section .first-input {
+        margin-left: 1rem;
+    }
+
+    .tip h2 {
+        margin-left: 2.2rem;
+    }
+
+    .buttons {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

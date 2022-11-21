@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Projeto-final/style.css">
+    <script src="./Projeto-final/JS/script.js"></script>
     <title>Calculadora</title>
 </head>
 
@@ -29,20 +30,12 @@
 
             <div class="section-buttons">
                 <div class="buttons">
-                    <div class="first-button">
-                        <button id="button--1" onclick="armazenar(5)">5%</button>
-                        <button id="button--2" onclick="armazenar(10)">10%</button>
-                    </div>
-
-                    <div class="second-button">
-                        <button id="button--3" onclick="armazenar(15)">15%</button>
-                        <button id="button--4" onclick="armazenar(25)">25%</button>
-                    </div>
-
-                    <div class="third-button">
-                        <button id="button--5" onclick="armazenar(50)">50%</button>
-                        <input type="text" placeholder="Custom" onchange="armazenar(0)" id="custom">
-                    </div>
+                    <button id="button--1" onclick="armazenar(5)">5%</button>
+                    <button id="button--2" onclick="armazenar(10)">10%</button>
+                    <button id="button--3" onclick="armazenar(15)">15%</button>
+                    <button id="button--4" onclick="armazenar(25)">25%</button>
+                    <button id="button--5" onclick="armazenar(50)">50%</button>
+                    <input type="text" placeholder="Custom" onchange="armazenar(0)" id="custom">
                 </div>
             </div>
 
@@ -63,7 +56,7 @@
                         <p  id="text-2">/ person</p>
                     </div>
                     <div class="res-1-1">
-                        <h3>$0,00</h3>
+                        <h3 id="gorjeta" >$0,00</h3>
                     </div>
                 </div>
 
@@ -77,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <button onclick="resetar()" >reset</button>
+            <button onclick="reset()">reset</button>
         </section>
     </main>
 </body>
