@@ -48,28 +48,36 @@
 
             <div class="second-input">
                 <h2>Number of People</h2>
-                <input type="number" placeholder="0" id="person" onchange="pessas()">
+                <div class="imagem-input-2">
+                    <img src="./Projeto-final/images/icon-person.svg" alt="">
+                    <input type="number" placeholder="0" id="person" onchange="pessas()">
+                </div>
             </div>
         </section>
 
         <section class="second-section">
             <div class="res">
                 <div class="res-1">
-                    <p>Tip Amout</p>
+                    <div class="res-text">
+                        <p>Tip Amout</p>
+                        <p  id="text-2">/ person</p>
+                    </div>
                     <div class="res-1-1">
-                        <p>/ person</p>
                         <h3>$0,00</h3>
                     </div>
                 </div>
 
                 <div class="res-2">
-                    <p>Total</p>
+                    <div class="res-text-2">
+                        <p>Total</p>
+                        <p id="text-2">/ person</p>
+                    </div>
                     <div class="res-2-2">
-                        <p>/ person</p>
                         <h3 id="contaFinal">$0,00</h3>
                     </div>
                 </div>
             </div>
+            <button onclick="resetar()" >reset</button>
         </section>
     </main>
 </body>
