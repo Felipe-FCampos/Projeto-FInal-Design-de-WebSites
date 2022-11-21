@@ -74,6 +74,11 @@ button {
     border-radius: 0.5rem;
 }
 
+.third-button input:focus {
+    outline: none;
+    border: var(--Very-dark-cyan) 2px solid;
+}
+
 .buttons button:focus {
     background-color: var(--Strong-cyan);
     color: var(--Very-dark-cyan);
@@ -99,6 +104,11 @@ button {
     border: none;
     color: var(--Very-dark-cyan);
     border-radius: 0.5rem;
+}
+
+.second-input input:focus {
+    outline: none;
+    border: var(--Very-dark-cyan) 2px solid;
 }
 
 .second-input .imagem-input-2 {
