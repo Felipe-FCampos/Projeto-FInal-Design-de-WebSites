@@ -12,7 +12,7 @@
 }
 
 button {
-    width: 9.5rem;
+    width: 8.5rem;
     height: 3rem;
     font-size: 1.5rem;
     background-color: var(--Very-dark-cyan);
@@ -24,36 +24,16 @@ button {
 .buttons {
     display: flex;
     flex-direction: column;
+    margin-inline: 2rem;
 }
 
-.first-button {
-    margin-bottom: 1rem;
-}
-
-.first-button {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-.second-button {
-    display: flex;
-    justify-content: space-around;
-}
-
-.third-button input {
-    width: 9.5rem;
-    height: 3rem;
-    font-size: 1.5rem;
+.buttons input {
+    border-radius: 0.5rem;
+    width: 8.5rem;
     text-align: center;
+    font-size: 1.4rem;
     border: none;
     background-color: var(--Very-light-grayish-cyan);
-    border-radius: 0.5rem;
-}
-
-.third-button input:focus {
-    outline: none;
-    border: var(--Very-dark-cyan) 2px solid;
 }
 
 .buttons button:focus {
